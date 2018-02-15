@@ -1,53 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tables</title>
-</head>
-<body>
-   <table border="1">
-       <thead>
-          <th>Number</th> 
-          <th>color</th>
-          <th>Country</th>
-       </thead>
-       <tr>
-           <td>250</td>
-           <td>red</td>
-           <td>USA</td>
-       </tr>
-       <tr>
-           <td>100</td>
-           <td>Blue</td>
-           <td>France</td>
-       </tr>
-   </table> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tables</title>
+    </head>
+    <body>
+    <table border="1">
+        <thead>
+            <th>Number</th> 
+            <th>color</th>
+            <th>Country</th>
+        </thead>
+        <tr>
+            <td>250</td>
+            <td>red</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>Blue</td>
+            <td>France</td>
+        </tr>
+    </table> 
 
-<table border="1">
-   <thead>
-       <th>Conutry Name</th>
-       <th>Country Flag</th>
-       <th>GDP (Millions of USD)</th>
-   </thead>
+        <table border="1">
+        <thead>
+            <th>Conutry Name</th>
+            <th>Country Flag</th>
+            <th>GDP (Millions of USD)</th>
+        </thead>
 
-   <tr>
-       <td>United States</td>
-       <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/190px-Flag_of_the_United_States.svg.png" alt=""></td>
-       <td>18,561,930</td>
-    </tr>
-    <tr>
-        <td>India</td>
-        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/150px-Flag_of_India.svg.png" alt=""></td>
-        <td>2,250,990</td>
-    </tr>
-    <tr>
-        <td>United Kingdom</td>
-        <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/200px-Flag_of_the_United_Kingdom.svg.png" alt=""></td>
-        <td>2,649,890</td>
+        <tr>
+            <td>United States</td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/190px-Flag_of_the_United_States.svg.png" alt=""></td>
+            <td>18,561,930</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/150px-Flag_of_India.svg.png" alt=""></td>
+                <td>2,250,990</td>
+            </tr>
+            <tr>
+                <td>United Kingdom</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/200px-Flag_of_the_United_Kingdom.svg.png" alt=""></td>
+                <td>2,649,890</td>
+            </tr>
+        </table>
 
-   </tr>
-</table>
-</body>
+        <form>
+            <h1>Log In</h1>
+            <h2>Please Input your Email and Password</h2>
+
+            <input type="email" name="useremail" value="Email Here">
+            <input type="password">
+            <input type="submit" name="" id="" value="Click Me">
+
+        </form>
+
+        <form>
+
+            <h1>Choose Color</h1>
+            <h2>click on button</h2>
+
+            <input type="color">
+        </form>
+
+        <form action="http://www.facebook.com" method="get">
+            <p>Enter text: </p>
+            <input type="text" name="useremail">
+            <input type="submit">
+        </form>
+
+        <form action="">
+            <label>
+                Enter text:
+                <input type="text" name="" id="">
+            </label>
+        </form>
+
+        <form>
+
+            <label for="userinput">Input:</label>
+            <input id="userinput" type="text" placeholder="Enter Email Here" required>
+            <input id="userinput" type="text" placeholder="not required">
+            <input type="submit">
+        </form>
+    </body>
+
+    <h1>Hotel Feedback Form</h1>
+
+    <form method="get">
+
+        <h3>Are you from inside the US?</h3>
+        <label for="inus">Inside</label>
+        <input id="inus" type="radio" name="loc" value="inside">
+
+        <label for="outus">outsite</label>
+        <input id="outus" type="radio" name="loc" id="" value="outside">
+
+        <h2>How was your service?</h2>
+
+        <select name="stars" id="">
+            <option value="Greate">3</option>
+            <option value="Okay">2</option>
+            <option value="Bad">1</option>
+        </select>
+
+        <h2>Any other feedback?</h2>
+
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="SUBMIT">
+    </form>
+
 </html>
