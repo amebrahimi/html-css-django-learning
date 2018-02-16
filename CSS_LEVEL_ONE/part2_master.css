@@ -1,0 +1,20 @@
+body {
+    background: url(https://cdn-images-1.medium.com/max/1000/1*qbHC_60RTV3cwTqZFhzOhg.jpeg);
+    background-repeat: no-repeat;
+}
+
+div {
+    background: blue;
+    border-color: orange;
+    border-width: 2px;
+    border-style: double;
+}
+
+p {
+    color: yellow;
+}
+
+span {
+    background-color: red;
+    color: black;
+}
